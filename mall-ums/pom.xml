@@ -9,8 +9,8 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>mall-pms</artifactId>
-
+    <artifactId>mall-ums</artifactId>
+    
     <dependencies>
         <dependency>
             <groupId>com.ywy</groupId>
@@ -50,11 +50,11 @@
             <optional>true</optional>
         </dependency>
         <!-- https://mvnrepository.com/artifact/net.logstash.logback/logstash-logback-encoder -->
-        <dependency>
-            <groupId>net.logstash.logback</groupId>
-            <artifactId>logstash-logback-encoder</artifactId>
-            <version>5.3</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>net.logstash.logback</groupId>-->
+<!--            <artifactId>logstash-logback-encoder</artifactId>-->
+<!--            <version>5.3</version>-->
+<!--        </dependency>-->
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -62,4 +62,6 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+
+
 </project>

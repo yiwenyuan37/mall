@@ -1,8 +1,8 @@
 server:
-  port: 20800
+  port: 20900
 spring:
   application:
-    name: mall-pms-service
+    name: mall-ums-service
   cloud:
     nacos:
       discovery:
@@ -15,4 +15,4 @@ mybatis-plus:
       id-type: auto
 logging:
   level:
-    com.ywy.mall.pms.mapper: debug
+    com.ywy.mall.ums.mapper: debug

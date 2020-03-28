@@ -1,18 +1,17 @@
 server:
-  port: 20800
+  port: 80
 spring:
   application:
-    name: mall-pms-service
+    name: mall-admin-service
   cloud:
     nacos:
       discovery:
         namespace: 19f31a9a-62bf-49dd-bfbd-829103d78ea4
         group: DEFAULT_GROUP
         server-addr: localhost:8848
-mybatis-plus:
-  global-config:
-    db-config:
-      id-type: auto
-logging:
-  level:
-    com.ywy.mall.pms.mapper: debug
+mall:
+  jwt:
+    tokenHeader: Authorization
+    secret: atguigu_2019
+    expiration: 604800
+    tokenHead: Bearer

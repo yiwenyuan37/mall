@@ -10,6 +10,8 @@
     <modules>
         <module>mall-pms</module>
         <module>mall-common-api</module>
+        <module>mall-ums</module>
+        <module>mall.admin</module>
     </modules>
     <packaging>pom</packaging>
 
